@@ -1,0 +1,115 @@
+.byu-main-nav .ui.menu .dropdown.item .menu {
+    border:none;
+}
+
+.byu-main-nav .ui.compact.menu {
+    font-size: 1.6rem;
+    background:none;
+    border: none;
+    box-shadow: none;
+    text-decoration-style: inherit;
+    padding: 0 0 0px;
+    min-width: 100%;
+    transition: transform 0.3s, opacity 0.3s !important;
+}
+.byu-main-nav .ui.simple.dropdown.item:hover {
+    background:none;
+    border: none;
+    box-shadow: none;
+    text-decoration: inherit;
+    color:white;
+}
+
+.byu-main-nav .ui.simple.dropdown.item {
+    padding:0 0 ;
+    min-width: 100%;
+}
+
+.ui.simple.active.dropdown > .menu, .ui.simple.dropdown:hover > .menu {
+    /*top: 127% !important;*/
+    overflow-y: scroll;
+    max-height: 17.9em;
+}
+
+div.item a.link {
+    margin: 0;
+    text-align: left;
+    font-size: 1em !important;
+    padding: 0.78571429em 2.14285714em !important;
+    background: #1e262c  !important;
+    color: white !important;
+    text-transform: none !important;
+    font-weight: normal !important;
+    box-shadow: none !important;
+    -webkit-transition: none !important;
+    transition: transform 0.3s, opacity 0.3s !important;
+    min-width: 100%;
+}
+
+div.item a.link:hover {
+    text-decoration: underline;
+}
+
+div.item a {
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 1.68rem;
+    line-height: 1.2 !important;
+}
+
+.ui.menu .ui.dropdown .menu .item {
+    padding: 0 0 !important;
+}
+
+@media only screen and (min-width: 1024px) {
+.byu-main-nav .ui.compact.menu {
+        font-size: 1.6rem;
+        background:none;
+        border: none;
+        box-shadow: none;
+        text-decoration-style: inherit;
+        padding: 0 0 3px;
+    }
+
+.byu-main-nav .ui.simple.dropdown.item:hover {
+        background:none;
+        border: none;
+        box-shadow: none;
+        text-decoration: inherit;
+        color:white;
+    }
+
+.byu-main-nav .ui.simple.dropdown.item {
+        padding:1.08em 0 ;
+    }
+
+.ui.simple.active.dropdown > .menu, .ui.simple.dropdown:hover > .menu {
+    /*top: 127% !important;*/
+    overflow-y: scroll;
+    max-height: 17.9em;
+}
+
+div.item a.link {
+    margin: 0;
+    text-align: left;
+    font-size: 1em !important;
+    padding: 0.78571429em 1.14285714em !important;
+    background: transparent !important;
+    color: rgba(0, 0, 0, 0.87) !important;
+    text-transform: none !important;
+    font-weight: normal !important;
+    box-shadow: none !important;
+    -webkit-transition: none !important;
+    transition: none !important;
+    min-width: 100%;
+}
+
+div.item a.link:hover {
+    text-decoration: none;
+
+}
+
+.ui.menu .ui.dropdown .menu .item {
+    padding: 0 0 !important;
+}
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Moovly Video</title>
+    <link href="data/css/videojs/video-js.css" rel="stylesheet" type="text/css">
+    <link href="data/css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<video id="myMoov" poster="data/videos/poster.jpg"  width="853" height="480" class="video-js vjs-default-skin vjs-big-play-centered vjs-controls-enabled vjs-has-started vjs-user-active" controls preload="none" data-setup='{"children": { "loadingSpinner": true, "controlBar": { "children": {"currentTimeDisplay": false, "timeDivider": false, "durationDisplay": false ,"volumeControl":false, "muteToggle":false}}}}'>
+    <source src="data/videos/moov.mp4" type='video/mp4'/>
+    <source src="data/videos/moov.ogv" type='video/ogg'/>
+    <source src="data/videos/moov.webm" type='video/webm'/>
+    <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+</video>
+<script src="data/js/jquery-1.11.2.min.js"></script>
+<script src="data/js/videojs/video.js"></script>
+<script type="text/javascript" charset="utf-8">
+    videojs.options.flash.swf = "data/js/videojs/video-js.swf";
+</script>
+</body>
+</html>
